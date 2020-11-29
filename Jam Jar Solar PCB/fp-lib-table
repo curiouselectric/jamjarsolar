@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name CuriousElectric3)(type KiCad)(uri "G:/My Drive/KiCAD/kicad_reinnovation/KiCAD PRETTY/CuriousElectric3.pretty")(options "")(descr ""))
+  (lib (name REInnovationFootprint)(type KiCad)(uri "G:/My Drive/KiCAD/kicad_reinnovation/KiCAD PRETTY/REInnovationFootprint.pretty")(options "")(descr ""))
+  (lib (name REInnovationGraphics)(type KiCad)(uri "G:/My Drive/KiCAD/kicad_reinnovation/KiCAD PRETTY/REInnovationGraphics.pretty")(options "")(descr ""))
+)

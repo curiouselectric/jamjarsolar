@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Jam-Jar-Solar-PCB-rescue)(type Legacy)(uri "${KIPRJMOD}/Jam Jar Solar PCB-rescue.lib")(options "")(descr ""))
+  (lib (name matts_components)(type Legacy)(uri "G:/My Drive/KiCAD/kicad_reinnovation/KiCad My Libraries/matts_components.lib")(options "")(descr ""))
+)
