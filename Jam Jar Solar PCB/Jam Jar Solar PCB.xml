@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>G:\My Drive\Work - Kits\PRODUCTS\Prototype\Solar Jar Lamp Kit\GITHUB\jamjarsolar\Jam Jar Solar PCB\Jam Jar Solar PCB.sch</source>
+    <date>04/12/2020 12:05:39</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Jam Jar Solar</title>
+        <company>The Curious Electric Company</company>
+        <rev/>
+        <date>2019-02-21</date>
+        <source>Jam Jar Solar PCB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:TH_LED-5MM_larg_pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jam-Jar-Solar-PCB-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6F10D7</tstamp>
+    </comp>
+    <comp ref="LG1">
+      <value>Logo1</value>
+      <footprint>CuriousElectric3:TCEC_Words_13mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jam-Jar-Solar-PCB-rescue" part="Conn_01x01-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6F19E8</tstamp>
+    </comp>
+    <comp ref="PCB1">
+      <value>PCB_Outline</value>
+      <footprint>REInnovationFootprint:JJS_PCB_Outline</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jam-Jar-Solar-PCB-rescue" part="Conn_01x01-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6F1A4C</tstamp>
+    </comp>
+    <comp ref="LG2">
+      <value>Logo2</value>
+      <footprint>CuriousElectric3:2020_04_14_CuriousElectricCompany_Logo_Round_15mm_FCu</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jam-Jar-Solar-PCB-rescue" part="Conn_01x01-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6F1A80</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:TH_LED-5MM_larg_pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jam-Jar-Solar-PCB-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C854BAD</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:TH_LED-5MM_larg_pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jam-Jar-Solar-PCB-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C854BE7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>SOLAR PV</value>
+      <footprint>REInnovationFootprint:Solar_PV_TH_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jam-Jar-Solar-PCB-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C85B0A9</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>QX5252</value>
+      <footprint>REInnovationFootprint:TH_QX5252</footprint>
+      <libsource lib="matts_components" part="QX5252" description="Linear Regulator +5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E97B8CC</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>150uH</value>
+      <footprint>REInnovationFootprint:TH_Inductor_JJS</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jam-Jar-Solar-PCB-rescue" part="L-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9918CB</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>REInnovationFootprint:Batt_Holder_AAA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F0743</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:TH_LED-5MM_larg_pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jam-Jar-Solar-PCB-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F81D556</tstamp>
+    </comp>
+    <comp ref="LG3">
+      <value>JJS_Logo</value>
+      <footprint>REInnovationGraphics:JJS_Jar_logo</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jam-Jar-Solar-PCB-rescue" part="Conn_01x01-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F861052</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jam-Jar-Solar-PCB-rescue" part="Conn_01x01-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jam-Jar-Solar-PCB-rescue" part="Conn_01x02-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jam-Jar-Solar-PCB-rescue" part="L-Device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jam-Jar-Solar-PCB-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="QX5252">
+      <description>Linear Regulator +5V</description>
+      <docs>regulator\lm78xx.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">QX5252</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SBAT" type="input"/>
+        <pin num="2" name="BAT" type="input"/>
+        <pin num="3" name="VSS" type="input"/>
+        <pin num="4" name="LX" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Jam-Jar-Solar-PCB-rescue">
+      <uri>G:\My Drive\Work - Kits\PRODUCTS\Prototype\Solar Jar Lamp Kit\GITHUB\jamjarsolar\Jam Jar Solar PCB/Jam Jar Solar PCB-rescue.lib</uri>
+    </library>
+    <library logical="matts_components">
+      <uri>G:/My Drive/KiCAD/kicad_reinnovation/KiCad My Libraries/matts_components.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(LG3-Pad1)">
+      <node ref="LG3" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(BT1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="D4" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(LG2-Pad1)">
+      <node ref="LG2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(PCB1-Pad1)">
+      <node ref="PCB1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(LG1-Pad1)">
+      <node ref="LG1" pin="1"/>
+    </net>
+  </nets>
+</export>
