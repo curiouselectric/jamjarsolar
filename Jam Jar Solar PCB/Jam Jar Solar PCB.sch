@@ -204,8 +204,6 @@ F 3 "~" V 5100 3060 50  0001 C CNN
 	1    5100 3000
 	1    0    0    -1  
 $EndComp
-Text Notes 7900 2100 0    50   ~ 0
-Really want a timer on this?\nRun for 5 hours max?
 $Comp
 L Jam-Jar-Solar-PCB-rescue:LED-Device D4
 U 1 1 5F81D556
